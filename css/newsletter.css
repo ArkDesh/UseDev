@@ -1,0 +1,51 @@
+.newsletter {
+    text-align: center;
+    padding: 40px 12.5%;
+    background-color: var(--cor-destaque-secundario);
+}
+
+.newsletter__titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    color: var(--cor-nl);
+}
+
+.newsletter__texto, .newsletter__botao-email, .newsletter__botao-email::placeholder {
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.newsletter__texto{
+    margin-block: 24px 32px;
+    color: var(--cor-nl);
+}
+
+.newsletter__botao-email {
+    color: var(--cor-links);
+    padding: 16px 24px;
+    width: 50%;
+    background: none;
+    border: 2px solid var(--cor-links);
+    border-radius: 32px;
+    margin-right: 16px;
+}
+
+.newsletter__botao-email::placeholder {
+    color: var(--cor-links);
+}
+
+.newsletter__botao-increver {
+    background-color: var(--cor-fundo-botao);
+    color: var(--cor-de-fundo);
+    padding: 16px 24px;
+    font-weight: 700;
+    font-family: var(--fonte-texto);
+    font-size: 20px;
+    line-height: 120%;
+    border: none;
+    border-radius: 32px;
+}
